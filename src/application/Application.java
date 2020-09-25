@@ -43,7 +43,7 @@ public class Application {
 				
 			}
 			catch (ChessException e) {
-				System.out.println(e.getMessage());
+			System.out.println(e.getMessage());
 				scanner.nextLine();
 			}
 			catch (InputMismatchException e) {
